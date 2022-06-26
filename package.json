@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "node dist/main.js",
-    "build": "rollup src/main.js --file dist/main.js --format cjs",
+    "build": "rollup src/main.js --file dist/main.js --format umd",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
